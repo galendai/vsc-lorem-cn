@@ -27,11 +27,11 @@
     "commands": [
       {
         "command": "vsc-lorem-cn.line",
-        "title": "Insert a line(20 characters) of chinese lorem text"
+        "title": "插入一行中文乱序字符（20个）"
       },
       {
         "command": "vsc-lorem-cn.paragraph",
-        "title": "Insert a paragraph(200 characters) of chinese lorem ipsum text"
+        "title": "插入一段中文乱序字符（200个）"
       }
     ]
   },
@@ -49,5 +49,6 @@
   },
   "dependencies": {
     "chinesegen": "^0.3.3"
-  }
+  },
+  "icon": "images/icon.png"
 }
