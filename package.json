@@ -4,6 +4,14 @@
   "description": "Chinese Lorem Generator for VSC",
   "version": "1.0.0",
   "publisher": "galend",
+  "bugs": {
+      "url": "https://github.com/galendai/vsc-lorem-cn/issues"
+  },
+  "homepage": "https://github.com/galendai/vsc-lorem-cn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galendai/vsc-lorem-cn"
+  },
   "engines": {
     "vscode": "^1.11.0"
   },

@@ -16,6 +16,6 @@ A simple chinese lorem ipsum generator extension for Visual Studio Code using [c
 2. Select a line of **20 characters**, or a paragrah of **200 characters**.
 
 ## Reference
-[vscode-lorem-ipsum](https://github.com/Tyriar/vscode-lorem-ipsum)
-
-[chinesegen](https://github.com/0of/chinesegen)
+>[vscode-lorem-ipsum](https://github.com/Tyriar/vscode-lorem-ipsum)
+>
+>[chinesegen](https://github.com/0of/chinesegen)
