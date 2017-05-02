@@ -2,7 +2,7 @@
   "name": "vsc-lorem-cn",
   "displayName": "Chinese Lorem Ipsum",
   "description": "Chinese Lorem Generator for VSC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "galend",
   "bugs": {
       "url": "https://github.com/galendai/vsc-lorem-cn/issues"
