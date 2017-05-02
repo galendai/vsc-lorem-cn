@@ -1,0 +1,45 @@
+{
+  "name": "vsc-lorem-cn",
+  "displayName": "Chinese Lorem Ipsum",
+  "description": "Chinese Lorem Generator for VSC",
+  "version": "1.0.0",
+  "publisher": "galend",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:vsc-lorem-cn.line",
+    "onCommand:vsc-lorem-cn.paragraph"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vsc-lorem-cn.line",
+        "title": "Insert a line(20 characters) of chinese lorem text"
+      },
+      {
+        "command": "vsc-lorem-cn.paragraph",
+        "title": "Insert a paragraph(200 characters) of chinese lorem ipsum text"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.3",
+    "vscode": "^1.0.0",
+    "mocha": "^2.3.3",
+    "eslint": "^3.6.0",
+    "@types/node": "^6.0.40",
+    "@types/mocha": "^2.2.32"
+  },
+  "dependencies": {
+    "chinesegen": "^0.3.3"
+  }
+}
