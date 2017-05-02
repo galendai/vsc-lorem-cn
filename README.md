@@ -17,4 +17,5 @@ A simple chinese lorem ipsum generator extension for Visual Studio Code using [c
 
 ## Reference
 [vscode-lorem-ipsum](https://github.com/Tyriar/vscode-lorem-ipsum)
+
 [chinesegen](https://github.com/0of/chinesegen)
