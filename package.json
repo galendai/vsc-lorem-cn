@@ -2,7 +2,7 @@
   "name": "vsc-lorem-cn",
   "displayName": "Chinese Lorem Ipsum",
   "description": "Chinese Lorem Generator for VSC",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "galend",
   "bugs": {
       "url": "https://github.com/galendai/vsc-lorem-cn/issues"
@@ -27,11 +27,11 @@
     "commands": [
       {
         "command": "vsc-lorem-cn.line",
-        "title": "插入一行中文乱序字符（20个）"
+        "title": "a line of chinese lorem characters."
       },
       {
         "command": "vsc-lorem-cn.paragraph",
-        "title": "插入一段中文乱序字符（200个）"
+        "title": "a paragraph of chinese lorem characters."
       }
     ]
   },
